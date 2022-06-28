@@ -1,22 +1,26 @@
 /* CSS Custom Style  */
-body{
+body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.header-div{
+
+.header-div {
     width: 100%;
     height: 50px;
     background-color: rgb(102, 204, 102);
 }
-.nav-menu > ul{
+
+.nav-menu>ul {
     display: flex;
     justify-content: center;
 }
-.nav-menu > ul > li{
+
+.nav-menu>ul>li {
     list-style: none;
     margin: 8px 30px;
 }
-.nav-icon > a{
+
+.nav-icon>a {
     text-decoration: none;
     color: white;
     font-size: 24px;
@@ -24,45 +28,59 @@ body{
 
 /* Main Header Style  */
 
-.header-main{
+.header-main {
     background-color: rgb(211, 255, 211);
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 350px;
-    
+    height: 250px;
+
 }
-.header-title{
-        width: 50%;
+
+.header-title {
+    width: 50%;
 }
-.header-title > h1{
+
+.header-title>h1 {
     color: rgb(50, 179, 50);
     font-size: 55px;
     margin-bottom: 0;
 }
+
 .delivery-title {
     margin-top: 0;
     margin-bottom: 0;
     color: rgb(50, 179, 50);
     font-size: 40px;
 }
-.delivery-title-special{
+
+.delivery-title-special {
     color: #FF8D27;
 }
-.delivery-items{
+
+.delivery-items {
     margin-top: 0;
     color: black;
 }
-.search-input{
+
+.search-input {
     width: 500px;
     height: 40px;
     border-radius: 12px;
 }
 
 /* <!-- Header Image and Style CSS --> */
-.grocery-style{
+.grocery-style {
     font-size: 100px;
     margin: 0 0 100px 140px;
-    color: rgba(255, 255, 255, 0.493);
+    color: rgba(255, 255, 255, 0.726);
     /* -webkit-text-stroke: 1px whitesmoke; */
+}
+
+.img-content img {
+    width: 200px;
+}
+
+.card-h {
+    height: 50px;
 }
